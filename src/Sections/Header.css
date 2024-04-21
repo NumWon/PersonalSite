@@ -1,0 +1,40 @@
+.header-container {
+	display: flex;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: #111111;
+	z-index: 1000;
+}
+
+.header-list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 5px 100px; */
+}
+
+/* .header-list-item {
+	
+
+} */
+
+.header-list li a {
+	text-decoration: none;
+	color: #b7b7b7;
+	transition: color 0.3s;
+	padding: 10px 30px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.header-list li a:hover {
+	color: #fff;
+  }
+  
+.header-list li a.active {
+	font-weight: bold;
+	color: red;
+}

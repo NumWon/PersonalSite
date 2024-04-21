@@ -1,0 +1,16 @@
+.resume-group-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.resume-icon-list {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.resume-icon {
+	max-width: 30px;
+	padding-right: 10px;
+}
