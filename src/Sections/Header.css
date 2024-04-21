@@ -6,6 +6,7 @@
 	width: 100%;
 	background-color: #111111;
 	z-index: 1000;
+	min-height: 50px;
 }
 
 .header-list {
@@ -13,19 +14,14 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/* padding: 5px 100px; */
+	padding: 15px;
 }
-
-/* .header-list-item {
-	
-
-} */
 
 .header-list li a {
 	text-decoration: none;
 	color: #b7b7b7;
 	transition: color 0.3s;
-	padding: 10px 30px;
+	padding: 10px 50px;
 	font-size: 14px;
 	text-decoration: none;
 }
