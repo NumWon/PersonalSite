@@ -7,3 +7,18 @@
 	font-family: 'Arial', sans-serif;
 	background-color: #f4f4f4;
 } */
+
+/* Fade-In Animation */
+#root {
+	animation: fade-in 1.5s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

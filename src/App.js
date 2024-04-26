@@ -6,6 +6,8 @@ import Contact from './Sections/Contact';
 import './App.css';
 
 function App() {
+  // Add Chipi Chipi Chapa Chapa in background
+  // Add Pedro Pedro in background
   return (
     <div>
       <Header />

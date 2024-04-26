@@ -13,7 +13,7 @@ function Intro() {
 	return (
 		<section id='intro' className='intro-section'>
 			<div className='intro-container'>
-				<h2>Hey, I'm Naumaan Sheikh...</h2>
+				<h2>Hey, this is Naumaan...</h2>
 				<p className='intro-paragraph'>I'm an aspiring Software Engineer, currently pursuing a bachelor's degreee in Computer Engineering at the University of Waterloo.</p>
 				<p className='intro-paragraph'>Let's start scrolling to learn more about me.</p>
 				<div className='button-container'>
