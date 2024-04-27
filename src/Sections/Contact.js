@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import axios from 'axios';
 import './Contact.css';
 
 function Contact() {
@@ -19,13 +20,9 @@ function Contact() {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
-		console.log(formData);
-
-		setFormData({
-			name: '',
-			email: '',
-			message: ''
-		});
+		const subject = encodeURIComponent("Website Contact Form Submission: " + formData.name);
+		const mailtoLink = `mailto:naumaansheikh02@gmail.com?subject=${subject}&body=${formData.message}&from=${formData.email}`;
+		window.location.href = mailtoLink;
 	};
 
 	return (
@@ -34,6 +31,7 @@ function Contact() {
 				<div className='contact-brief'>
 					<h2>Contact Me</h2>
 					<p>Any projects? Business ideas? Questions? Feel free to reach out and I'll respond as soon as I can!</p>
+					<p className='contact-info'>Call me at <a href="tel:+16477721412">(647) 772-1412</a> or shoot me an email at <a href="mailto:naumaansheikh02@gmail.com">naumaansheikh02@gmail.com</a></p>
 				</div>
 				<div className='contact-container'>
 					<form onSubmit={handleSubmit} className='contact-form'>

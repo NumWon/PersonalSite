@@ -22,19 +22,29 @@
 	flex: 0 0 50%;
 	color: #b7b7b7;
 	margin: auto;
+	text-align: center;
 }
 
 .contact-brief h2 {
-	/* font-family: 'Arial', sans-serif; */
 	font-size: 40px;
 	text-align: center;
+	font-weight: bold;
 	padding: 10px;
 	padding-bottom: 20px;
+	color: #fff;
 }
 
 .contact-brief p {
 	font-size: 24px;
 	padding: 30px;
+}
+
+.contact-info a {
+	text-decoration: underline;
+}
+
+.contact-info a:hover {
+	color: #f00;
 }
 
 .contact-form {

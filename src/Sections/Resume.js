@@ -41,10 +41,11 @@ function Resume() {
 					</ul>
 				</div>
 			</div>
+			<hr className='resume-section-divider' />
 
 			{/* Work Experience */}
 			<div className='resume-section'>
-				<h3 className='resume-section-title'>Work Experience</h3>
+				<h3 className='resume-section-title'>Experience</h3>
 				
 				<div className='resume-section-list'>
 					<div className='resume-section-group'>
@@ -59,7 +60,7 @@ function Resume() {
 							</ul>
 						</div>
 						<div className='resume-group-sub-header'>
-							<p className='resume-group-sub-header-title'>Kinectrics Inc.</p>
+							<p className='resume-group-sub-header-title'>Kinectrics</p>
 							<p className='resume-group-sub-header-date'>Jan 2024 - Apr 2024</p>
 						</div>
 						<ul className='resume-group-description'>
@@ -131,7 +132,7 @@ function Resume() {
 							</ul>
 						</div>
 						<div className='resume-group-sub-header'>
-							<p className='resume-group-sub-header-title'>Niscon Inc.</p>
+							<p className='resume-group-sub-header-title'>Niscon</p>
 							<p className='resume-group-sub-header-date'>Jan 2022 - Apr 2022</p>
 						</div>
 						<ul className='resume-group-description'>
@@ -145,43 +146,45 @@ function Resume() {
 					</div>
 				</div>
 			</div>
+			<hr className='resume-section-divider' />
 
 			{/* Projects */}
 			<div className='resume-section'>
 				<h3 className='resume-section-title'>Projects</h3>
-				
-				<div className='resume-section-group'>
-				<div className='resume-group-header'>
-						<p className='resume-group-title'>Real-Time OS</p>
-						<ul className='resume-icon-list'>
-							{/* <li><img /></li>*/}
-						</ul>
-					</div>
-					<ul className='resume-group-description'>
-						<li>
-						Implemented a first-fit memory allocation scheme, including heap initialization and memory management functions, tracking memory ownership to ensure safe and 100% complete memory deallocation
-						</li>
-						<li>
-						Developed a priority-based, preemptive multi-tasked kernel by utilizing system calls for task creation, termination, priority management, and task information retrieval using arrays and linked lists, reducing memory usage by 30%
-						</li>
-					</ul>
-				</div>
-				<div className='resume-section-group'>
-				<div className='resume-group-header'>
-						<p className='resume-group-title'>ChatApp iOS</p>
-						<ul className='resume-icon-list'>
-							<li><img alt='Firebase' className='resume-icon' src={FirebaseIcon}/></li>
-							<li><img alt='Swift' className='resume-icon' src={SwiftIcon}/></li>
-						</ul>
-					</div>
-					<ul className='resume-group-description'>
-						<li>
-						Created an iOS real-time messaging application featuring robust contact management, cloud storage, intuitive user-interface, and quick responsiveness for seamless user experience
-						</li>
-						<li>
-						Executed the implementation Firebase Firestore database to enhance user authentication, securely store data, optimize user query efficiency, and protect user credentials, resulting in a 50% improvement in data synchronization
-						</li>
-					</ul>
+				<div className='resume-section-list'>
+					<div className='resume-section-group'>
+						<div className='resume-group-header'>
+								<p className='resume-group-title'>Real-Time OS</p>
+								<ul className='resume-icon-list'>
+									{/* <li><img /></li>*/}
+								</ul>
+							</div>
+							<ul className='resume-group-description'>
+								<li>
+								Implemented a first-fit memory allocation scheme, including heap initialization and memory management functions, tracking memory ownership to ensure safe and 100% complete memory deallocation
+								</li>
+								<li>
+								Developed a priority-based, preemptive multi-tasked kernel by utilizing system calls for task creation, termination, priority management, and task information retrieval using arrays and linked lists, reducing memory usage by 30%
+								</li>
+							</ul>
+						</div>
+					<div className='resume-section-group'>
+						<div className='resume-group-header'>
+								<p className='resume-group-title'>ChatApp iOS</p>
+								<ul className='resume-icon-list'>
+									<li><img alt='Firebase' className='resume-icon' src={FirebaseIcon}/></li>
+									<li><img alt='Swift' className='resume-icon' src={SwiftIcon}/></li>
+								</ul>
+							</div>
+							<ul className='resume-group-description'>
+								<li>
+								Created an iOS real-time messaging application featuring robust contact management, cloud storage, intuitive user-interface, and quick responsiveness for seamless user experience
+								</li>
+								<li>
+								Executed the implementation Firebase Firestore database to enhance user authentication, securely store data, optimize user query efficiency, and protect user credentials, resulting in a 50% improvement in data synchronization
+								</li>
+							</ul>
+						</div>
 				</div>
 			</div>
 		</section>
