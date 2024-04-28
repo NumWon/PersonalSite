@@ -82,8 +82,8 @@ function Resume() {
 						<div className='resume-group-header'>
 							<p className='resume-group-title'>Technical Project Manager Intern</p>
 							<ul className='resume-icon-list'>
-								<li><img className='resume-icon' src={ExcelIcon}/></li>
-								<li><img className='resume-icon' src={MicrosoftOfficeIcon}/></li>
+								<li><img alt='Excel' className='resume-icon' src={ExcelIcon}/></li>
+								<li><img alt='Microsoft Office' className='resume-icon' src={MicrosoftOfficeIcon}/></li>
 							</ul>
 						</div>
 						<div className='resume-group-sub-header'>
