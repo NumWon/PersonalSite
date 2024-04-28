@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
-// import axios from 'axios';
 import './Contact.css';
+
+import EmailIcon from '../Assets/email-icon.svg';
+import GithubIcon from '../Assets/github-icon-white.svg';
+import InstagramIcon from '../Assets/instagram-icon.svg';
+import LinkedinIcon from '../Assets/linkedin-icon.svg';
+
 
 function Contact() {
 	const [formData, setFormData] = useState({
@@ -75,7 +80,12 @@ function Contact() {
 				</div>
 			</section>
 			<div className='footer'>
-
+				<ul className='footer-links'>
+					<li> <a href='https://www.linkedin.com/in/naumaansheikh/'> 	<img src={LinkedinIcon} alt='LinkedIn' /> 	</a> </li>
+					<li> <a href='https://github.com/NumWon'> 					<img src={GithubIcon} alt='GitHub' /> 		</a> </li>
+					<li> <a href='mailto:naumaansheikh02@gmail.com'> 			<img src={EmailIcon} alt='Email' /> 		</a> </li>
+					<li> <a href='https://www.instagram.com/sheikhnaumaan'> 	<img src={InstagramIcon} alt='Instagram' /> </a> </li>
+				</ul>
 			</div>
 		</div>
 	);
