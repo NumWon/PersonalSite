@@ -31,7 +31,7 @@ function Contact() {
 	};
 
 	return (
-		<div>
+		<div className='contact'>
 			<section id='contact' className='contact-section'>
 				<div className='contact-brief'>
 					<h2>Contact Me</h2>

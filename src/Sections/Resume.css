@@ -1,5 +1,6 @@
 .resume-container {
 	color: #fff;
+	max-width: 100vw;
 }
 
 .resume-title {
@@ -86,4 +87,19 @@
 	line-height: 2;
 	margin-bottom: 15px;
 	text-align: justify;
+}
+
+@media (max-width: 768px) {
+	.resume-section {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.resume-section-title {
+		margin-bottom: 10px;
+	}
+
+	.resume-group-description li {
+		text-align: left;
+	}
 }

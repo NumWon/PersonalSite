@@ -17,6 +17,16 @@
 	padding: 15px;
 }
 
+@media (max-width: 768px) {
+	.header-list {
+		flex-direction: column;
+	  }
+	  .header-list li a {
+		padding: 10px;
+		font-size: 14px;
+	  }
+}
+
 .header-list li a {
 	text-decoration: none;
 	color: #b7b7b7;
