@@ -12,6 +12,8 @@ import MicrosoftOfficeIcon from '../Assets/microsoft-office-icon.svg';
 import PostgreSQLIcon from '../Assets/postgresql-icon.svg';
 import ReactIcon from '../Assets/react-icon.svg';
 import SwiftIcon from '../Assets/swift-icon.svg';
+import NextjsIcon from '../Assets/nextjs-icon.svg';
+import FlaskIcon from '../Assets/flask-icon.svg';
 import './Resume.css';
 
 function Resume() {
@@ -31,7 +33,7 @@ function Resume() {
 					</div>
 
 					<div className='resume-group-sub-header'>
-						<p className='resume-group-sub-header-title'>Bachelor's of Computer Engineering</p>
+						<p className='resume-group-sub-header-title'>Honours Bachelor of Computer Engineering</p>
 						<p className='resume-group-sub-header-date'>April 2025</p>
 					</div>
 					<ul className='resume-group-description'>
@@ -48,6 +50,23 @@ function Resume() {
 				<h3 className='resume-section-title'>Experience</h3>
 				
 				<div className='resume-section-list'>
+				<div className='resume-section-group'>
+						<div className='resume-group-header'>
+							<p className='resume-group-title'>SYNC Software Developer Intern</p>
+						</div>
+						<div className='resume-group-sub-header'>
+							<p className='resume-group-sub-header-title'>Ford Motor Company</p>
+							<p className='resume-group-sub-header-date'>Sep 2024 - Dec 2024</p>
+						</div>
+						<ul className='resume-group-description'>
+							<li>
+							Developed unit and functional tests in Java for automotive Android software to validate API functionality
+							</li>
+							<li>
+							Executed tests on a hardware bench via Android Studio to ensure seamless hardware-software integration
+							</li>
+						</ul>
+					</div>
 					<div className='resume-section-group'>
 						<div className='resume-group-header'>
 							<p className='resume-group-title'>Software Engineer Intern</p>
@@ -65,14 +84,11 @@ function Resume() {
 						</div>
 						<ul className='resume-group-description'>
 							<li>
-							Developed a comprehensive cable ageing management tool for energy plants, streamlining data storage and accessibility for low and medium-voltage cables, resulting in a 400% increase in operational efficiency
-							</li>
+							Designed and implemented a complex relational database with 25+ tables in PostgreSQL, optimizing data organization and minimizing retrieval time via indexing and query optimization							</li>
 							<li>
-							Engineered a complex PostgreSQL database with 25+ tables to store cable construction, routing, and testing information, boosting data organization and retrieval efficiency by over 700%
-							</li>
+							Engineered an industrial full-stack web app from scratch using Node.js, React, Bootstrap, and Django to modernize cable testing data management							</li>
 							<li>
-							Spearheaded the design and implementation of a full-stack web application using React and Bootstrap front-end with Django backend, facilitating intuitive navigation and seamless interaction, resulting in 100% user satisfaction
-							</li>
+							Created database diagrams, wireframes, and technical documentation to streamline project development and effectively communicate design decisions with stakeholders							</li>
 							<li>
 							Standardized cable testing procedures and documentation, enabling easy identification and resolution of cable issues, thereby reducing workload and downtime by 250% and enhancing overall plant reliability
 							</li>
@@ -87,17 +103,18 @@ function Resume() {
 							</ul>
 						</div>
 						<div className='resume-group-sub-header'>
-							<p className='resume-group-sub-header-title'>4393627 Ontario Inc.</p>
+							<p className='resume-group-sub-header-title'>HUNTS Group of Companies</p>
 							<p className='resume-group-sub-header-date'>May 2023 - Aug 2023</p>
 						</div>
 						<ul className='resume-group-description'>
 							<li>
-							Composed comprehensive project plans and outlines by collaborating with internal stakeholders and cross-functional teams to understand project requirements, boosting project efficiency by 150%						</li>
+							Led the management of franchise-related projects, including contract negotiations, documentation, and categorization of commercial listings, improving organization and accelerating project completion						</li>
 							<li>
-							Directed project progress by tracking over 20 milestones and deadlines while addressing potential risks and benefits, reducing project completion time by over 30%
+							Collaborated with stakeholders to refine business models, propose strategies, and advance franchise development
 							</li>
 							<li>
-							Streamlined operations by delivering expert technical guidance and support by automating email services, updating forms to be digital, and organizing project data to reduce manual workload by over 8 hours per week						</li>
+							Automated workflows, digitized forms, and restructured data management to reduce workload by 8+ hours weekly
+							</li>
 						</ul>
 					</div>
 					<div className='resume-section-group'>
@@ -115,10 +132,13 @@ function Resume() {
 						</div>
 						<ul className='resume-group-description'>
 							<li>
-							Engineered and deployed multi-threaded client application with multiple sockets for asynchronous data polling, leveraging Swift, RxSwift, Obj-C, C++, and MATLAB technologies to drive potential 25% increase in company revenue
+							Engineered a multi-threaded client-server system utilizing TCP sockets and asynchronous data polling using Swift, RxSwift, Obj-C, C++, and MATLAB, establishing a new revenue stream to increase company profits by 25%
 							</li>
 							<li>
-							Implemented TCP server integration into the existing tracker library, incorporating asynchronous and reactive functions for seamless real-time data polling to achieve less than 0.4% error rate and optimized latency, overhead, and throughput
+							Designed a cross-platform client app using C++ Boost ASIO, leveraging OOP principles to streamline data management and minimize feature development time
+							</li>
+							<li>
+							Integrated TCP server into the tracker library using Apple Network framework, implementing data organization and compression techniques to minimize latency, overhead, and throughput for data polling with ≤0.4% error rate
 							</li>
 						</ul>
 					</div>
@@ -137,10 +157,10 @@ function Resume() {
 						</div>
 						<ul className='resume-group-description'>
 							<li>
-							Created a standalone log viewer desktop application, employing parsing and ordering techniques using C#/C++ MFC Library, leading to an 800% increase in company-wide productivity
+							Created a standalone log viewer desktop app using parsing and file exploration techniques with C# and C++ MFC Library, reducing company-wide troubleshooting time by 3 hours per day
 							</li>
 							<li>
-							Employed advanced debugging and testing techniques to optimize software development process, prioritizing high-impact issues, resulting in a 50% reduction in delay times and ensuring on-time project delivery
+							Optimized software development by employing advanced debugging techniques, prioritizing high-impact issues to reduce delays by 50%, ensuring timely project delivery
 							</li>
 						</ul>
 					</div>
@@ -152,6 +172,45 @@ function Resume() {
 			<div className='resume-section'>
 				<h3 className='resume-section-title'>Projects</h3>
 				<div className='resume-section-list'>
+					<div className='resume-section-group'>
+						<div className='resume-group-header'>
+								<p className='resume-group-title'>Fleet Vision</p>
+								<ul className='resume-icon-list'>
+									<li><img alt='Python' className='resume-icon' src={PythonIcon}/></li>
+									<li><img alt='C++' className='resume-icon' src={CPPIcon}/></li>
+									<li><img alt='Firebase' className='resume-icon' src={FirebaseIcon}/></li>
+									<li><img alt='Next.js' className='resume-icon' src={NextjsIcon}/></li>
+									<li><img alt='Flask' className='resume-icon' src={FlaskIcon}/></li>
+								</ul>
+							</div>
+							<ul className='resume-group-description'>
+								<li>
+								Engineered an IoT-based driver monitoring system using ESP32 cameras and OBD-II data for real-time analysis
+								</li>
+								<li>
+								Implemented CLIP-based machine learning models for facial and posture recognition, detecting drowsiness and distracted driving in real-time, with an accuracy 95% at a rate of 30 fps
+								</li>
+								<li>
+								Built a Next.js web app with Firebase integration for real-time data visualization along with cloud-based historical analysis of driver safety
+								</li>
+							</ul>
+						</div>
+					<div className='resume-section-group'>
+						<div className='resume-group-header'>
+								<p className='resume-group-title'>TripLinker Android</p>
+								<ul className='resume-icon-list'>
+									{/*icons */}
+								</ul>
+							</div>
+							<ul className='resume-group-description'>
+								<li>
+								Developed a multi-page Android native app with Kotlin and Jetpack Compose, integrating Google Maps, TripAdvisor, Flight Tracker, Geolocation, and News APIs
+								</li>
+								<li>
+								Effectively integrated features such as flight tracking, multi-user itinerary management, group expense tracking, and nearby attractions using Firebase and local storage for offline capabilities
+								</li>
+							</ul>
+						</div>
 					<div className='resume-section-group'>
 						<div className='resume-group-header'>
 								<p className='resume-group-title'>Real-Time OS</p>
